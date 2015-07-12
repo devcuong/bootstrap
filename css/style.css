@@ -43,16 +43,30 @@ div.home-icon{
 	text-align: center;
 	margin-top: 5px;
 }
+.home-row{
+	margin-bottom: 50px;
+}
 #header-menu{
 	padding: 20px 0;
 }
 #header-menu .nav{
-	float: right;
+	text-align:center;
+}
+#header-menu ul.nav li{
+	float: none;
+		display: inline-block;
 }
 #home-slideshow{
 	text-align: center;
 }
-#home-slideshow img{
+#home-slideshow .item{
+	max-width: 1170px;
+	max-height: 421px;
+}
+#home-slideshow  img{
 	width: 1170px;
 	height: 421px;
+}
+.home-nav-sub{
+	margin-top: 25px;	
 }

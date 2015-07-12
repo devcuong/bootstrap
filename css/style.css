@@ -13,6 +13,7 @@
 	float: none;
 	margin: 0 auto;
 }
+
 .powered{
 	text-align: right;
 }
@@ -38,6 +39,10 @@ div.home-icon{
 	border-bottom: 1px solid #00A2D7;
 	font-style: italic;
 }
+.home-slide{
+	text-align: center;
+	margin-top: 5px;
+}
 #header-menu{
 	padding: 20px 0;
 }
@@ -45,5 +50,9 @@ div.home-icon{
 	float: right;
 }
 #home-slideshow{
-	width: 800px;
+	text-align: center;
+}
+#home-slideshow img{
+	width: 1170px;
+	height: 421px;
 }
